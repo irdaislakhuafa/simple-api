@@ -1,7 +1,5 @@
 package com.simple.api.controllers;
 
-import java.util.List;
-
 import com.simple.api.Model.entities.Mahasiswa;
 import com.simple.api.helpers.ResponseMessage;
 import com.simple.api.services.ServiceMahasiswa;
@@ -17,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/simpleapi/mahasiswa")
+@RequestMapping(value = "/learn-reactjs/simpleapi/mahasiswa")
 public class ControllerMahasiswa {
 
     @Autowired
